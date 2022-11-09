@@ -1,9 +1,10 @@
 import { FC, ReactElement } from 'react'
+import { Outlet } from 'react-router-dom'
 
 export type BlankLayoutProps = {}
 
 const BlankLayout: FC<BlankLayoutProps> = (): ReactElement => {
-  return <div>Blank Layout</div>
+  return <Outlet />
 }
 
 export default BlankLayout

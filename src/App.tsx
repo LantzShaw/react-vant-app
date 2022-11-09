@@ -1,12 +1,7 @@
-import { Button } from 'react-vant'
+import { Outlet } from 'react-router-dom'
 
 function App() {
-  return (
-    <div>
-      <Button type="primary">button</Button>
-      Test
-    </div>
-  )
+  return <Outlet />
 }
 
 export default App
