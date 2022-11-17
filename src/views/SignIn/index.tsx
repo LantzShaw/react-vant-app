@@ -1,9 +1,9 @@
 import { FC, ReactElement } from 'react'
 
-export type SignProps = {}
+export type SignInProps = {}
 
-const Sign: FC<SignProps> = (): ReactElement => {
+const SignIn: FC<SignInProps> = (): ReactElement => {
   return <div>Login Page</div>
 }
 
-export default Sign
+export default SignIn
