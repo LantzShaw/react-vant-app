@@ -20,6 +20,11 @@ const router = createBrowserRouter([
             index: true,
           },
           {
+            path: '/category',
+            element: Home,
+            index: true,
+          },
+          {
             element: Profile,
             path: '/profile',
           },
